@@ -1,0 +1,25 @@
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FF5900;
+    font-family: 'Xilosa', sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+a {
+    font-family: 'Xilosa', sans-serif;
+    font-size: 28px;
+    color: #00336A;
+}
+.navbarItem {
+    padding: 16px;
+    background-color: #FF5900;
+    border: transparent;
+    font-family: 'Xilosa', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    color: #00336A;
+}
+.navbarItem:hover {
+    background-color: #e85100; /* Green */
+}
