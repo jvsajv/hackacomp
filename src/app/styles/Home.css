@@ -1,5 +1,54 @@
+.react-parallax-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.welcome {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 16px;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: 'Xilosa', sans-serif;
+    color: #00336A;
+    text-shadow: 0.5px 0 #FF5900, -0.5px 0 #FF5900, 0 0.5px #FF5900, 0 -0.5px #FF5900,
+    0.5px 0.5px #FF5900, -0.5px -0.5px #FF5900, 0.5px -0.5px #FF5900, -1px 0.5px #FF5900;
+}
 .welcome-text {
+    max-width: 60%;
+    margin: 16px;
     font-family: 'Lemon/Milk', sans-serif;
     /* font-family: 'Lemon/Milk light', sans-serif; */
     color: whitesmoke;
+}
+
+.table {
+    font-family: 'Lemon/Milk', sans-serif;
+    /* font-family: 'Lemon/Milk light', sans-serif; */
+    color: whitesmoke;
+    border: 1px solid #FF5900;
+    --bs-table-border-color: #FF5900;
+}
+tr:nth-child(even) {
+    background-color: #FF5900;
+    color: whitesmoke;
+}
+  
+tr:nth-child(odd) {
+    background-color: #00336A;
+    color: whitesmoke;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th[class="07"]{
+    background-color: #FF5900;
 }

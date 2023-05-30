@@ -2,6 +2,7 @@
     background-color: #FF5900;
     font-family: 'Xilosa', sans-serif;
     padding-top: 0;
+    position: sticky;
 }
 a {
     font-family: 'Xilosa', sans-serif;

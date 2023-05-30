@@ -25,7 +25,7 @@ function NavbarItem(props) {
 
 export default function NavigationBar() {
     return (
-        <Navbar collapseOnSelect expand="md" className="navbar"  variant="dark">
+        <Navbar collapseOnSelect expand="md" className="navbar"  variant="dark" fixed="top">
             <Container fluid className="shadow-sm m-0 p-0 rounded">
                 <Navbar.Brand><img src={logo_hackacomp} className="logo_hackacomp" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className="light"/>
